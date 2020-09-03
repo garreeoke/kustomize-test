@@ -9,7 +9,7 @@ commonLabels:
 
 images:
   - name: CHANGE_ME
-    newName: ${trigger['image']}
+    newName: ${trigger['repository']}
     newTag: ${trigger['tag']}
 
 resources:
